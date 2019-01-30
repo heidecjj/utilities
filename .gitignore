@@ -1,2 +1,4 @@
 generateNeuronConfigs/*.json
 generateNeuronConfigs/makeNeuralConfig
+float2hex
+chisel-python-script/output.txt

@@ -12,7 +12,7 @@ def main():
     code = read_csv("32pointsConverted.csv")
     bundles = ["" for _ in range(29)];
     for x in range(28):
-        bundles[x] += "val bundle" + str(x+1) +" = Wire(new VOSBundle)"
+        bundles[x] += "val bundle" + str(x+1) +" = Wire(new VOSBundle())"
     for x in bundles:
         print(x)
     for x in code:
